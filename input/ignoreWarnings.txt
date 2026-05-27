@@ -1,0 +1,15 @@
+== Suppressed Messages ==
+
+# Jurisdiction deprecation warning
+INFORMATION: ImplementationGuide/hl7.fhir.uv.fm-incubator: ImplementationGuide.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
+
+# R6 IG messages
+ERROR: ImplementationGuide/hl7.fhir.uv.fm-incubator: This IG is version 6.0.0-ballot3, while the IG 'hl7.terminology.r5' is from version 5.0.0
+ERROR: ImplementationGuide/hl7.fhir.uv.fm-incubator: This IG is version 6.0.0-ballot3, while the IG 'hl7.fhir.uv.extensions.r5' is from version 5.0.0
+ERROR: ImplementationGuide/hl7.fhir.uv.fm-incubator: This IG is version 6.0.0-ballot3, while the IG 'hl7.fhir.uv.tools.r5' is from version 5.0.0
+ERROR: There is no jira specification file defined with the expected name of FHIR-fm-incubator in the xml folder of the  https://github.com/HL7/Jira-Spec-Artifacts project.  This must exist before ballot or publication.
+WARNING: ImplementationGuide/hl7.fhir.uv.fm-incubator: ImplementationGuide.dependsOn[0]: The ImplementationGuide is based on FHIR version 6.0.0-ballot3 but package hl7.terminology.r5#7.1.0 is based on FHIR version 5.0.0. In general, this version mismatch should be avoided - some tools will try to make this work with variable degrees of success, but others will not even try
+ERROR: ImplementationGuide/hl7.fhir.uv.fm-incubator: ImplementationGuide.dependsOn[1]: The canonical URL http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions points to the package hl7.fhir.uv.extensions which is inconsistent with the stated packageId of hl7.fhir.uv.extensions.r5
+
+# Conformance clause tagging
+
