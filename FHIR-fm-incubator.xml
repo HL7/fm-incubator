@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ciUrl="" defaultVersion="current" defaultWorkgroup="fm" url="http://hl7.org/fhir/uv/fm-incubator">
+<version code="current" url=""/>
+<artifactPageExtension value="-definitions"/>
+<artifactPageExtension value="-examples"/>
+<artifactPageExtension value="-mappings"/>
+<artifact id="EnrollmentRequest/22345" key="EnrollmentRequest-22345" name="22345"/>
+<artifact id="CodeSystem/enrollment-outcome" key="CodeSystem-enrollment-outcome" name="Claim Processing Codes"/>
+<artifact id="EnrollmentResponse/ER2500" key="EnrollmentResponse-ER2500" name="ER2500"/>
+<artifact id="ValueSet/enrollment-outcome" key="ValueSet-enrollment-outcome" name="Enrollment Outcome"/>
+<artifact id="StructureDefinition/EnrollmentRequest" key="StructureDefinition-EnrollmentRequest" name="Enrollment Request"/>
+<artifact id="StructureDefinition/EnrollmentResponse" key="StructureDefinition-EnrollmentResponse" name="Enrollment Response"/>
+<artifact id="List/EnrollmentRequest-examples" key="List-EnrollmentRequest-examples" name="EnrollmentRequest-examples"/>
+<artifact id="SearchParameter/EnrollmentRequest-group" key="SearchParameter-EnrollmentRequest-group" name="EnrollmentRequestGroupSearchParam"/>
+<artifact id="SearchParameter/EnrollmentRequest-identifier" key="SearchParameter-EnrollmentRequest-identifier" name="EnrollmentRequestIdentifierSearchParam"/>
+<artifact id="SearchParameter/EnrollmentRequest-patient" key="SearchParameter-EnrollmentRequest-patient" name="EnrollmentRequestPatientSearchParam"/>
+<artifact id="SearchParameter/EnrollmentRequest-status" key="SearchParameter-EnrollmentRequest-status" name="EnrollmentRequestStatusSearchParam"/>
+<artifact id="SearchParameter/EnrollmentRequest-subject" key="SearchParameter-EnrollmentRequest-subject" name="EnrollmentRequestSubjectSearchParam"/>
+<artifact id="List/EnrollmentResponse-examples" key="List-EnrollmentResponse-examples" name="EnrollmentResponse-examples"/>
+<artifact id="SearchParameter/EnrollmentResponse-group" key="SearchParameter-EnrollmentResponse-group" name="EnrollmentResponseGroupSearchParam"/>
+<artifact id="SearchParameter/EnrollmentResponse-identifier" key="SearchParameter-EnrollmentResponse-identifier" name="EnrollmentResponseIdentifierSearchParam"/>
+<artifact id="SearchParameter/EnrollmentResponse-patient" key="SearchParameter-EnrollmentResponse-patient" name="EnrollmentResponsePatientSearchParam"/>
+<artifact id="SearchParameter/EnrollmentResponse-request" key="SearchParameter-EnrollmentResponse-request" name="EnrollmentResponseRequestSearchParam"/>
+<artifact id="SearchParameter/EnrollmentResponse-status" key="SearchParameter-EnrollmentResponse-status" name="EnrollmentResponseStatusSearchParam"/>
+<artifact id="StructureDefinition/Invoice" key="StructureDefinition-Invoice" name="Invoice"/>
+<artifact id="ValueSet/invoice-status" key="ValueSet-invoice-status" name="Invoice Status"/>
+<artifact id="CodeSystem/invoice-status" key="CodeSystem-invoice-status" name="Invoice Status"/>
+<artifact id="List/Invoice-examples" key="List-Invoice-examples" name="Invoice-examples"/>
+<artifact id="SearchParameter/Invoice-account" key="SearchParameter-Invoice-account" name="InvoiceAccountSearchParam"/>
+<artifact id="SearchParameter/Invoice-date" key="SearchParameter-Invoice-date" name="InvoiceDateSearchParam"/>
+<artifact id="SearchParameter/Invoice-identifier" key="SearchParameter-Invoice-identifier" name="InvoiceIdentifierSearchParam"/>
+<artifact id="SearchParameter/Invoice-issuer" key="SearchParameter-Invoice-issuer" name="InvoiceIssuerSearchParam"/>
+<artifact id="SearchParameter/Invoice-participant-role" key="SearchParameter-Invoice-participant-role" name="InvoiceParticipant-roleSearchParam"/>
+<artifact id="SearchParameter/Invoice-participant" key="SearchParameter-Invoice-participant" name="InvoiceParticipantSearchParam"/>
+<artifact id="SearchParameter/Invoice-patient" key="SearchParameter-Invoice-patient" name="InvoicePatientSearchParam"/>
+<artifact id="SearchParameter/Invoice-recipient" key="SearchParameter-Invoice-recipient" name="InvoiceRecipientSearchParam"/>
+<artifact id="SearchParameter/Invoice-status" key="SearchParameter-Invoice-status" name="InvoiceStatusSearchParam"/>
+<artifact id="SearchParameter/Invoice-subject" key="SearchParameter-Invoice-subject" name="InvoiceSubjectSearchParam"/>
+<artifact id="SearchParameter/Invoice-totalgross" key="SearchParameter-Invoice-totalgross" name="InvoiceTotalgrossSearchParam"/>
+<artifact id="SearchParameter/Invoice-totalnet" key="SearchParameter-Invoice-totalnet" name="InvoiceTotalnetSearchParam"/>
+<artifact id="SearchParameter/Invoice-type" key="SearchParameter-Invoice-type" name="InvoiceTypeSearchParam"/>
+<artifact id="Invoice/example" key="Invoice-example" name="example"/>
+<page key="NA" name="(NA)"/>
+<page key="many" name="(many)"/>
+<page key="artifacts" name="Artifacts Summary"/>
+<page key="changes" name="Change Log"/>
+<page key="index" name="FM Incubator"/>
+<page key="toc" name="Table of Contents"/>
+</specification>

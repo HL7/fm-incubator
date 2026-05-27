@@ -2,9 +2,6 @@
 
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="contract-data-meaning"/>
-  <meta>
-    
-  </meta>
   <url value="http://hl7.org/fhir/contract-data-meaning"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
