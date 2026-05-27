@@ -13,6 +13,7 @@
           <valueString value="Contract.authority"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/Contract-authority"/>
+        <status value="active"/>
         <description value="The authority of the contract"/>
         <code value="authority"/>
         <type value="reference"/>
@@ -32,6 +33,7 @@
           <valueString value="Contract.domain"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/Contract-domain"/>
+        <status value="active"/>
         <description value="The domain of the contract"/>
         <code value="domain"/>
         <type value="reference"/>
@@ -51,6 +53,7 @@
           <valueString value="Contract.identifier"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/Contract-identifier"/>
+        <status value="active"/>
         <description value="The identity of the contract"/>
         <code value="identifier"/>
         <type value="token"/>
@@ -70,6 +73,7 @@
           <valueString value="Contract.instantiatesUri"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/Contract-instantiates"/>
+        <status value="active"/>
         <description value="A source definition of the contract"/>
         <code value="instantiates"/>
         <type value="uri"/>
@@ -89,6 +93,7 @@
           <valueString value="Contract.issued"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/Contract-issued"/>
+        <status value="active"/>
         <description value="The date/time the contract was issued"/>
         <code value="issued"/>
         <type value="date"/>
@@ -108,6 +113,7 @@
           <valueString value="Contract.subject"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/Contract-patient"/>
+        <status value="active"/>
         <description value="The identity of the subject of the contract (if a patient)"/>
         <code value="patient"/>
         <type value="reference"/>
@@ -128,6 +134,7 @@
           <valueString value="Contract.signer.party"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/Contract-signer"/>
+        <status value="active"/>
         <description value="Contract Signatory Party"/>
         <code value="signer"/>
         <type value="reference"/>
@@ -147,6 +154,7 @@
           <valueString value="Contract.status"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/Contract-status"/>
+        <status value="active"/>
         <description value="The status of the contract"/>
         <code value="status"/>
         <type value="token"/>
@@ -166,6 +174,7 @@
           <valueString value="Contract.subject"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/Contract-subject"/>
+        <status value="active"/>
         <description value="The identity of the subject of the contract"/>
         <code value="subject"/>
         <type value="reference"/>
@@ -185,6 +194,7 @@
           <valueString value="Contract.url"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/Contract-url"/>
+        <status value="active"/>
         <description value="The basal contract definition"/>
         <code value="url"/>
         <type value="uri"/>

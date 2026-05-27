@@ -13,6 +13,7 @@
           <valueString value="EnrollmentRequest.identifier"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/EnrollmentRequest-identifier"/>
+        <status value="active"/>
         <description value="The business identifier of the Enrollment"/>
         <code value="identifier"/>
         <type value="token"/>
@@ -32,6 +33,7 @@
           <valueString value="EnrollmentRequest.candidate"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/EnrollmentRequest-patient"/>
+        <status value="active"/>
         <description value="The party to be enrolled"/>
         <code value="patient"/>
         <type value="reference"/>
@@ -52,6 +54,7 @@
           <valueString value="EnrollmentRequest.candidate"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/EnrollmentRequest-group"/>
+        <status value="active"/>
         <description value="The parties to be enrolled"/>
         <code value="group"/>
         <type value="reference"/>
@@ -72,6 +75,7 @@
           <valueString value="EnrollmentRequest.status"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/EnrollmentRequest-status"/>
+        <status value="active"/>
         <description value="The status of the enrollment"/>
         <code value="status"/>
         <type value="token"/>
@@ -91,6 +95,7 @@
           <valueString value="EnrollmentRequest.candidate"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/EnrollmentRequest-subject"/>
+        <status value="active"/>
         <description value="The party to be enrolled"/>
         <code value="subject"/>
         <type value="reference"/>

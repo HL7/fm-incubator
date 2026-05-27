@@ -13,6 +13,7 @@
           <valueString value="Invoice.account"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/Invoice-account"/>
+        <status value="active"/>
         <description value="Account that is being balanced"/>
         <code value="account"/>
         <type value="reference"/>
@@ -32,6 +33,7 @@
           <valueString value="Invoice.creation"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/Invoice-date"/>
+        <status value="active"/>
         <description value="Invoice date / posting date"/>
         <code value="date"/>
         <type value="date"/>
@@ -51,6 +53,7 @@
           <valueString value="Invoice.identifier"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/Invoice-identifier"/>
+        <status value="active"/>
         <description value="Business Identifier for item"/>
         <code value="identifier"/>
         <type value="token"/>
@@ -70,6 +73,7 @@
           <valueString value="Invoice.issuer"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/Invoice-issuer"/>
+        <status value="active"/>
         <description value="Issuing Organization of Invoice"/>
         <code value="issuer"/>
         <type value="reference"/>
@@ -89,6 +93,7 @@
           <valueString value="Invoice.participant.actor"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/Invoice-participant"/>
+        <status value="active"/>
         <description value="Individual who was involved"/>
         <code value="participant"/>
         <type value="reference"/>
@@ -108,6 +113,7 @@
           <valueString value="Invoice.participant.role"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/Invoice-participant-role"/>
+        <status value="active"/>
         <description value="Type of involvement in creation of this Invoice"/>
         <code value="participant-role"/>
         <type value="token"/>
@@ -127,6 +133,7 @@
           <valueString value="Invoice.subject"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/Invoice-patient"/>
+        <status value="active"/>
         <description value="Recipient(s) of goods and services"/>
         <code value="patient"/>
         <type value="reference"/>
@@ -147,6 +154,7 @@
           <valueString value="Invoice.recipient"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/Invoice-recipient"/>
+        <status value="active"/>
         <description value="Recipient of this invoice"/>
         <code value="recipient"/>
         <type value="reference"/>
@@ -166,6 +174,7 @@
           <valueString value="Invoice.status"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/Invoice-status"/>
+        <status value="active"/>
         <description value="draft | issued | balanced | cancelled | entered-in-error"/>
         <code value="status"/>
         <type value="token"/>
@@ -185,6 +194,7 @@
           <valueString value="Invoice.subject"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/Invoice-subject"/>
+        <status value="active"/>
         <description value="Recipient(s) of goods and services"/>
         <code value="subject"/>
         <type value="reference"/>
@@ -204,6 +214,7 @@
           <valueString value="Invoice.totalGross"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/Invoice-totalgross"/>
+        <status value="active"/>
         <description value="Gross total of this Invoice"/>
         <code value="totalgross"/>
         <type value="quantity"/>
@@ -223,6 +234,7 @@
           <valueString value="Invoice.totalNet"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/Invoice-totalnet"/>
+        <status value="active"/>
         <description value="Net total of this Invoice"/>
         <code value="totalnet"/>
         <type value="quantity"/>
@@ -242,6 +254,7 @@
           <valueString value="Invoice.type"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/Invoice-type"/>
+        <status value="active"/>
         <description value="Type of Invoice"/>
         <code value="type"/>
         <type value="token"/>
