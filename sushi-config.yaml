@@ -37,10 +37,10 @@ parameters:
   path-pages:
     - input/pagecontent
   path-resource: 
-    - input/resources/graphdefinition
+    - input/resources/invoice
   special-url-base: http://hl7.org/fhir
   additional-resource: 
-    - input/resources/graphdefinition/StructureDefinition-GraphDefinition.xml
+    - input/resources/invoice/StructureDefinition-Invoice.xml
 
 pages:
   index.md:
@@ -49,10 +49,10 @@ pages:
     title: Change Log
 
 resources:
-  List/GraphDefinition-examples:
-    description: A set of GraphDefinition resources that illustrate the use of the $graph operation. These examples are not normative, and are not intended to be used as test cases.
-  List/GraphDefinition-operations:
-    description: All the GraphDefinition operations available in this guide.
+  # List/GraphDefinition-examples:
+  #   description: A set of GraphDefinition resources that illustrate the use of the $graph operation. These examples are not normative, and are not intended to be used as test cases.
+  # List/GraphDefinition-operations:
+  #   description: All the GraphDefinition operations available in this guide.
 
 menu:
   Home: index.html
