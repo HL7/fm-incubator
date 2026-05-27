@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- edited with XMLSpy v2014 rel. 2 sp1 (x64) (http://www.altova.com) by Lloyd McKenzie (private) --><StructureDefinition xmlns="http://hl7.org/fhir">
+<?xml version="1.0" encoding="UTF-8"?><!-- edited with XMLSpy v2014 rel. 2 sp1 (x64) (http://www.altova.com) by Lloyd McKenzie (private) -->
+<StructureDefinition xmlns="http://hl7.org/fhir-tmp">
   <id value="consentdirective"/>
   <text>
     <status value="generated"/>
@@ -171,25 +172,7 @@
     </element>
     <element>
       <path value="Contract.type.coding.system"/>
-      <short value="Identity of the terminology system"/>
-      <definition value="The identification of the code system that defines the meaning of the symbol in the code."/>
-      <comment value="The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should reference to some definition that establish the system clearly and unambiguously."/>
-      <requirements value="Need to be unambiguous about the source of the definition of the symbol."/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="uri"/>
-      </type>
       <fixedUri value="http://loinc.org"/>
-      <isSummary value="true"/>
-      <mapping>
-        <identity value="v2"/>
-        <map value="C*E.3"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value="./codeSystem"/>
-      </mapping>
       <mapping>
         <identity value="orim"/>
         <map value="fhir:Coding.system rdfs:subPropertyOf dt:CDCoding.codeSystem"/>
@@ -197,24 +180,7 @@
     </element>
     <element>
       <path value="Contract.type.coding.code"/>
-      <short value="Symbol in syntax defined by the system"/>
-      <definition value="A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination)."/>
-      <requirements value="Need to refer to a particular code in the system."/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="code"/>
-      </type>
       <fixedCode value="57016-8"/>
-      <isSummary value="true"/>
-      <mapping>
-        <identity value="v2"/>
-        <map value="C*E.1"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value="./code"/>
-      </mapping>
       <mapping>
         <identity value="orim"/>
         <map value="fhir:Coding.code rdfs:subPropertyOf dt:CDCoding.code"/>
@@ -437,8 +403,7 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="Quantity"/>
-        <profile value="http://hl7.org/fhir/StructureDefinition/Money"/>
+        <code value="Money"/>
       </type>
       <mapping>
         <identity value="rim"/>
@@ -483,8 +448,7 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="Quantity"/>
-        <profile value="http://hl7.org/fhir/StructureDefinition/Money"/>
+        <code value="Money"/>
       </type>
     </element>
     <element>

@@ -12,6 +12,7 @@
   <title value="Contract Data Meaning"/>
   <experimental value="true"/>
   <description value="ContractDataMeaning"/>
+  <content value="complete"/>
   <concept>
     <code value="instance"/>
     <display value="Instance"/>
