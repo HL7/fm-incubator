@@ -1,5 +1,6 @@
 ### Introduction
 This Additional Resources Incubator Implementation Guide (IG) defines FHIR resources that require additional review and enhancement before becoming normative content and included in a future version of the FHIR specification.
+
 We welcome and encourage all feedback on this content.
 
 #### Resources
