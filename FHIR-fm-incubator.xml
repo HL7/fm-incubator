@@ -23,14 +23,14 @@
 <artifact id="SearchParameter/EnrollmentResponse-request" key="SearchParameter-EnrollmentResponse-request" name="EnrollmentResponseRequestSearchParam"/>
 <artifact id="SearchParameter/EnrollmentResponse-status" key="SearchParameter-EnrollmentResponse-status" name="EnrollmentResponseStatusSearchParam"/>
 <artifact id="StructureDefinition/Invoice" key="StructureDefinition-Invoice" name="Invoice"/>
-<artifact id="ValueSet/invoice-status" key="ValueSet-invoice-status" name="Invoice Status"/>
 <artifact id="CodeSystem/invoice-status" key="CodeSystem-invoice-status" name="Invoice Status"/>
+<artifact id="ValueSet/invoice-status" key="ValueSet-invoice-status" name="Invoice Status ValueSet"/>
 <artifact id="List/Invoice-examples" key="List-Invoice-examples" name="Invoice-examples"/>
 <artifact id="SearchParameter/Invoice-account" key="SearchParameter-Invoice-account" name="InvoiceAccountSearchParam"/>
 <artifact id="SearchParameter/Invoice-date" key="SearchParameter-Invoice-date" name="InvoiceDateSearchParam"/>
 <artifact id="SearchParameter/Invoice-identifier" key="SearchParameter-Invoice-identifier" name="InvoiceIdentifierSearchParam"/>
 <artifact id="SearchParameter/Invoice-issuer" key="SearchParameter-Invoice-issuer" name="InvoiceIssuerSearchParam"/>
-<artifact id="SearchParameter/Invoice-participant-role" key="SearchParameter-Invoice-participant-role" name="InvoiceParticipant-roleSearchParam"/>
+<artifact id="SearchParameter/Invoice-participant-role" key="SearchParameter-Invoice-participant-role" name="InvoiceParticipantRoleSearchParam"/>
 <artifact id="SearchParameter/Invoice-participant" key="SearchParameter-Invoice-participant" name="InvoiceParticipantSearchParam"/>
 <artifact id="SearchParameter/Invoice-patient" key="SearchParameter-Invoice-patient" name="InvoicePatientSearchParam"/>
 <artifact id="SearchParameter/Invoice-recipient" key="SearchParameter-Invoice-recipient" name="InvoiceRecipientSearchParam"/>

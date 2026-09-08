@@ -1,44 +1,44 @@
 == Suppressed Messages ==
 
 # Jurisdiction deprecation warning
-INFORMATION: ImplementationGuide/hl7.fhir.uv.fm-incubator: ImplementationGuide.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: SearchParameter/EnrollmentRequest-identifier: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: StructureDefinition/EnrollmentRequest: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: SearchParameter/EnrollmentRequest-patient: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: SearchParameter/EnrollmentRequest-group: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: SearchParameter/EnrollmentRequest-status: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: SearchParameter/EnrollmentRequest-subject: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: StructureDefinition/EnrollmentResponse: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: SearchParameter/EnrollmentResponse-identifier: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: SearchParameter/EnrollmentResponse-request: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: SearchParameter/EnrollmentResponse-status: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: SearchParameter/EnrollmentResponse-patient: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: SearchParameter/EnrollmentResponse-group: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: CodeSystem/enrollment-outcome: CodeSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: ValueSet/enrollment-outcome: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: StructureDefinition/Invoice: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: SearchParameter/Invoice-account: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: SearchParameter/Invoice-date: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: SearchParameter/Invoice-identifier: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: SearchParameter/Invoice-issuer: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: SearchParameter/Invoice-participant: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: SearchParameter/Invoice-participant-role: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: SearchParameter/Invoice-patient: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: SearchParameter/Invoice-recipient: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: SearchParameter/Invoice-status: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: SearchParameter/Invoice-subject: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: SearchParameter/Invoice-totalgross: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: SearchParameter/Invoice-totalnet: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: SearchParameter/Invoice-type: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: CodeSystem/invoice-status: CodeSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-INFORMATION: ValueSet/invoice-status: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
+INFORMATION: ImplementationGuide/hl7.fhir.uv.fm-incubator: ImplementationGuide.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: SearchParameter/EnrollmentRequest-identifier: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: StructureDefinition/EnrollmentRequest: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: SearchParameter/EnrollmentRequest-patient: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: SearchParameter/EnrollmentRequest-group: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: SearchParameter/EnrollmentRequest-status: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: SearchParameter/EnrollmentRequest-subject: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: StructureDefinition/EnrollmentResponse: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: SearchParameter/EnrollmentResponse-identifier: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: SearchParameter/EnrollmentResponse-request: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: SearchParameter/EnrollmentResponse-status: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: SearchParameter/EnrollmentResponse-patient: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: SearchParameter/EnrollmentResponse-group: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: CodeSystem/enrollment-outcome: CodeSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: ValueSet/enrollment-outcome: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: StructureDefinition/Invoice: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: SearchParameter/Invoice-account: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: SearchParameter/Invoice-date: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: SearchParameter/Invoice-identifier: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: SearchParameter/Invoice-issuer: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: SearchParameter/Invoice-participant: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: SearchParameter/Invoice-participant-role: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: SearchParameter/Invoice-patient: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: SearchParameter/Invoice-recipient: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: SearchParameter/Invoice-status: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: SearchParameter/Invoice-subject: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: SearchParameter/Invoice-totalgross: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: SearchParameter/Invoice-totalnet: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: SearchParameter/Invoice-type: SearchParameter.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: CodeSystem/invoice-status: CodeSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
+INFORMATION: ValueSet/invoice-status: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot5
 
 # R6 IG messages
-ERROR: ImplementationGuide/hl7.fhir.uv.fm-incubator: This IG is version 6.0.0-ballot3, while the IG 'hl7.terminology.r5' is from version 5.0.0
-ERROR: ImplementationGuide/hl7.fhir.uv.fm-incubator: This IG is version 6.0.0-ballot3, while the IG 'hl7.fhir.uv.extensions.r5' is from version 5.0.0
-ERROR: ImplementationGuide/hl7.fhir.uv.fm-incubator: This IG is version 6.0.0-ballot3, while the IG 'hl7.fhir.uv.tools.r5' is from version 5.0.0
+ERROR: ImplementationGuide/hl7.fhir.uv.fm-incubator: This IG is version 6.0.0-ballot5, while the IG 'hl7.terminology.r5' is from version 5.0.0
+ERROR: ImplementationGuide/hl7.fhir.uv.fm-incubator: This IG is version 6.0.0-ballot5, while the IG 'hl7.fhir.uv.extensions.r5' is from version 5.0.0
+ERROR: ImplementationGuide/hl7.fhir.uv.fm-incubator: This IG is version 6.0.0-ballot5, while the IG 'hl7.fhir.uv.tools.r5' is from version 5.0.0
 ERROR: There is no jira specification file defined with the expected name of FHIR-fm-incubator in the xml folder of the  https://github.com/HL7/Jira-Spec-Artifacts project.  This must exist before ballot or publication.
-WARNING: ImplementationGuide/hl7.fhir.uv.fm-incubator: ImplementationGuide.dependsOn[0]: The ImplementationGuide is based on FHIR version 6.0.0-ballot3 but package hl7.terminology.r5#7.1.0 is based on FHIR version 5.0.0. In general, this version mismatch should be avoided - some tools will try to make this work with variable degrees of success, but others will not even try
+WARNING: ImplementationGuide/hl7.fhir.uv.fm-incubator: ImplementationGuide.dependsOn[0]: The ImplementationGuide is based on FHIR version 6.0.0-ballot5 but package hl7.terminology.r5#7.1.0 is based on FHIR version 5.0.0. In general, this version mismatch should be avoided - some tools will try to make this work with variable degrees of success, but others will not even try
 ERROR: ImplementationGuide/hl7.fhir.uv.fm-incubator: ImplementationGuide.dependsOn[1]: The canonical URL http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions points to the package hl7.fhir.uv.extensions which is inconsistent with the stated packageId of hl7.fhir.uv.extensions.r5
 
 # Conformance clause tagging
