@@ -58,10 +58,24 @@ pages:
     title: Change Log
 
 resources:
-  # List/GraphDefinition-examples:
-  #   description: A set of GraphDefinition resources that illustrate the use of the $graph operation. These examples are not trial-use, and are not intended to be used as test cases.
-  # List/GraphDefinition-operations:
-  #   description: All the GraphDefinition operations available in this guide.
+  EnrollmentRequest/22345:
+    description: Enrollment request referencing a patient, insurer, provider organization, and coverage.
+  EnrollmentResponse/ER2500:
+    description: Completed enrollment response confirming that a dependent was added to a policy.
+  InsurancePlan/example:
+    description: Minimal insurance plan example containing a resource ID and placeholder name.
+  InsuranceProduct/example:
+    description: Minimal insurance product example containing an identifier and placeholder name.
+  InsuranceProduct/example1:
+    description: Fictional HL7 International staff insurance product illustrating ownership, administration, contacts, and substance abuse coverage with a primary care benefit; does not represent actual HL7 insurance coverage.
+  InsuranceProduct/example-onc:
+    description: Sample PPO insurance product with national coverage for diagnostic and treatment services, including primary and specialty care visits.
+  InsurancePlan/example-onc:
+    description: Standard insurance plan illustrating a general cost and primary and specialty care copayments and coinsurance for in-network and out-of-network care.
+  InsurancePlan/example1:
+    description: Fictional HL7 International staff plan illustrating a Silver plan type and a general cost of USD 2,000; does not represent an actual HL7 insurance plan.
+  Invoice/example:
+    description: Issued patient invoice identifying a cardiologist participant and cardiology department issuer, with totals of EUR 40 net and EUR 48 gross.
 
 menu:
   Home: index.html

@@ -12,13 +12,11 @@
 <artifact id="ValueSet/enrollment-outcome" key="ValueSet-enrollment-outcome" name="Enrollment Outcome"/>
 <artifact id="StructureDefinition/EnrollmentRequest" key="StructureDefinition-EnrollmentRequest" name="Enrollment Request"/>
 <artifact id="StructureDefinition/EnrollmentResponse" key="StructureDefinition-EnrollmentResponse" name="Enrollment Response"/>
-<artifact id="List/EnrollmentRequest-examples" key="List-EnrollmentRequest-examples" name="EnrollmentRequest-examples"/>
 <artifact id="SearchParameter/EnrollmentRequest-group" key="SearchParameter-EnrollmentRequest-group" name="EnrollmentRequestGroupSearchParam"/>
 <artifact id="SearchParameter/EnrollmentRequest-identifier" key="SearchParameter-EnrollmentRequest-identifier" name="EnrollmentRequestIdentifierSearchParam"/>
 <artifact id="SearchParameter/EnrollmentRequest-patient" key="SearchParameter-EnrollmentRequest-patient" name="EnrollmentRequestPatientSearchParam"/>
 <artifact id="SearchParameter/EnrollmentRequest-status" key="SearchParameter-EnrollmentRequest-status" name="EnrollmentRequestStatusSearchParam"/>
 <artifact id="SearchParameter/EnrollmentRequest-subject" key="SearchParameter-EnrollmentRequest-subject" name="EnrollmentRequestSubjectSearchParam"/>
-<artifact id="List/EnrollmentResponse-examples" key="List-EnrollmentResponse-examples" name="EnrollmentResponse-examples"/>
 <artifact id="SearchParameter/EnrollmentResponse-group" key="SearchParameter-EnrollmentResponse-group" name="EnrollmentResponseGroupSearchParam"/>
 <artifact id="SearchParameter/EnrollmentResponse-identifier" key="SearchParameter-EnrollmentResponse-identifier" name="EnrollmentResponseIdentifierSearchParam"/>
 <artifact id="SearchParameter/EnrollmentResponse-patient" key="SearchParameter-EnrollmentResponse-patient" name="EnrollmentResponsePatientSearchParam"/>
@@ -29,15 +27,11 @@
 <artifact id="ValueSet/insuranceplan-type" key="ValueSet-insuranceplan-type" name="Insurance Plan Type"/>
 <artifact id="ValueSet/insuranceproduct-type" key="ValueSet-insuranceproduct-type" name="Insurance Plan Type"/>
 <artifact id="StructureDefinition/InsuranceProduct" key="StructureDefinition-InsuranceProduct" name="Insurance Product"/>
-<artifact id="List/InsurancePlan-examples" key="List-InsurancePlan-examples" name="InsurancePlan-examples"/>
-<artifact id="List/InsurancePlan-operations" key="List-InsurancePlan-operations" name="InsurancePlan-operations"/>
 <artifact id="SearchParameter/InsurancePlan-coverage-area" key="SearchParameter-InsurancePlan-coverage-area" name="InsurancePlanCoverageAreaSearchParam"/>
 <artifact id="SearchParameter/InsurancePlan-identifier" key="SearchParameter-InsurancePlan-identifier" name="InsurancePlanIdentifierSearchParam"/>
 <artifact id="SearchParameter/InsurancePlan-network" key="SearchParameter-InsurancePlan-network" name="InsurancePlanNetworkSearchParam"/>
 <artifact id="SearchParameter/InsurancePlan-product" key="SearchParameter-InsurancePlan-product" name="InsurancePlanProductSearchParam"/>
 <artifact id="SearchParameter/InsurancePlan-type" key="SearchParameter-InsurancePlan-type" name="InsurancePlanTypeSearchParam"/>
-<artifact id="List/InsuranceProduct-examples" key="List-InsuranceProduct-examples" name="InsuranceProduct-examples"/>
-<artifact id="List/InsuranceProduct-operations" key="List-InsuranceProduct-operations" name="InsuranceProduct-operations"/>
 <artifact id="SearchParameter/InsuranceProduct-administered-by" key="SearchParameter-InsuranceProduct-administered-by" name="InsuranceProductAdministeredBySearchParam"/>
 <artifact id="SearchParameter/InsuranceProduct-contact-address-city" key="SearchParameter-InsuranceProduct-contact-address-city" name="InsuranceProductContactAddressCitySearchParam"/>
 <artifact id="SearchParameter/InsuranceProduct-contact-address-country" key="SearchParameter-InsuranceProduct-contact-address-country" name="InsuranceProductContactAddressCountrySearchParam"/>
@@ -55,7 +49,6 @@
 <artifact id="StructureDefinition/Invoice" key="StructureDefinition-Invoice" name="Invoice"/>
 <artifact id="CodeSystem/invoice-status" key="CodeSystem-invoice-status" name="Invoice Status"/>
 <artifact id="ValueSet/invoice-status" key="ValueSet-invoice-status" name="Invoice Status ValueSet"/>
-<artifact id="List/Invoice-examples" key="List-Invoice-examples" name="Invoice-examples"/>
 <artifact id="SearchParameter/Invoice-account" key="SearchParameter-Invoice-account" name="InvoiceAccountSearchParam"/>
 <artifact id="SearchParameter/Invoice-date" key="SearchParameter-Invoice-date" name="InvoiceDateSearchParam"/>
 <artifact id="SearchParameter/Invoice-identifier" key="SearchParameter-Invoice-identifier" name="InvoiceIdentifierSearchParam"/>
