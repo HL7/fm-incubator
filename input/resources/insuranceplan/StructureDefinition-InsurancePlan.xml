@@ -24,10 +24,6 @@
     <valueCode value=".status = retired"/>
   </extension>
   <url value="http://hl7.org/fhir/StructureDefinition/InsurancePlan"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.4.642.5.1354"/>
-  </identifier>
   
   <name value="InsurancePlan"/>
   <title value="Insurance Plan"/>

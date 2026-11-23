@@ -5,11 +5,11 @@
   <entry>
     <resource>
       <SearchParameter>
-        <id value="InsuranceProduct-address"/>
+        <id value="InsuranceProduct-contact-address"/>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
           <valueCode value="trial-use"/>
         </extension>
-        <url value="http://hl7.org/fhir/SearchParameter/InsuranceProduct-address"/>
+        <url value="http://hl7.org/fhir/SearchParameter/InsuranceProduct-contact-address"/>
         <description value="A server defined search that may match any of the string fields in the Address, including line, city, district, state, country, postalCode, and/or text"/>
         <code value="contact-address"/>
         <type value="string"/>
@@ -21,11 +21,11 @@
   <entry>
     <resource>
       <SearchParameter>
-        <id value="InsuranceProduct-address-city"/>
+        <id value="InsuranceProduct-contact-address-city"/>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
           <valueCode value="trial-use"/>
         </extension>
-        <url value="http://hl7.org/fhir/SearchParameter/InsuranceProduct-address-city"/>
+        <url value="http://hl7.org/fhir/SearchParameter/InsuranceProduct-contact-address-city"/>
         <description value="A city specified in an address"/>
         <code value="contact-address-city"/>
         <type value="string"/>
@@ -37,11 +37,11 @@
   <entry>
     <resource>
       <SearchParameter>
-        <id value="InsuranceProduct-address-country"/>
+        <id value="InsuranceProduct-contact-address-country"/>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
           <valueCode value="trial-use"/>
         </extension>
-        <url value="http://hl7.org/fhir/SearchParameter/InsuranceProduct-address-country"/>
+        <url value="http://hl7.org/fhir/SearchParameter/InsuranceProduct-contact-address-country"/>
         <description value="A country specified in an address"/>
         <code value="contact-address-country"/>
         <type value="string"/>
@@ -53,11 +53,11 @@
   <entry>
     <resource>
       <SearchParameter>
-        <id value="InsuranceProduct-address-postalcode"/>
+        <id value="InsuranceProduct-contact-address-postalcode"/>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
           <valueCode value="trial-use"/>
         </extension>
-        <url value="http://hl7.org/fhir/SearchParameter/InsuranceProduct-address-postalcode"/>
+        <url value="http://hl7.org/fhir/SearchParameter/InsuranceProduct-contact-address-postalcode"/>
         <description value="A postal code specified in an address"/>
         <code value="contact-address-postalcode"/>
         <type value="string"/>
@@ -69,11 +69,11 @@
   <entry>
     <resource>
       <SearchParameter>
-        <id value="InsuranceProduct-address-state"/>
+        <id value="InsuranceProduct-contact-address-state"/>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
           <valueCode value="trial-use"/>
         </extension>
-        <url value="http://hl7.org/fhir/SearchParameter/InsuranceProduct-address-state"/>
+        <url value="http://hl7.org/fhir/SearchParameter/InsuranceProduct-contact-address-state"/>
         <description value="A state specified in an address"/>
         <code value="contact-address-state"/>
         <type value="string"/>
@@ -85,11 +85,11 @@
   <entry>
     <resource>
       <SearchParameter>
-        <id value="InsuranceProduct-address-use"/>
+        <id value="InsuranceProduct-contact-address-use"/>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
           <valueCode value="trial-use"/>
         </extension>
-        <url value="http://hl7.org/fhir/SearchParameter/InsuranceProduct-address-use"/>
+        <url value="http://hl7.org/fhir/SearchParameter/InsuranceProduct-contact-address-use"/>
         <description value="A use code specified in an address"/>
         <code value="contact-address-use"/>
         <type value="token"/>

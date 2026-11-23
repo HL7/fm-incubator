@@ -12,7 +12,7 @@
         <extension url="http://hl7.org/fhir/build/StructureDefinition/path">
           <valueString value="Invoice.account"/>
         </extension>
-        <url value="http://hl7.org/fhir/build/SearchParameter/Invoice-account"/>
+        <url value="http://hl7.org/fhir/SearchParameter/Invoice-account"/>
         <status value="active"/>
         <description value="Account that is being balanced"/>
         <code value="account"/>
@@ -32,7 +32,7 @@
         <extension url="http://hl7.org/fhir/build/StructureDefinition/path">
           <valueString value="Invoice.creation"/>
         </extension>
-        <url value="http://hl7.org/fhir/build/SearchParameter/Invoice-date"/>
+        <url value="http://hl7.org/fhir/SearchParameter/Invoice-date"/>
         <status value="active"/>
         <description value="Invoice date / posting date"/>
         <code value="date"/>
@@ -52,7 +52,7 @@
         <extension url="http://hl7.org/fhir/build/StructureDefinition/path">
           <valueString value="Invoice.identifier"/>
         </extension>
-        <url value="http://hl7.org/fhir/build/SearchParameter/Invoice-identifier"/>
+        <url value="http://hl7.org/fhir/SearchParameter/Invoice-identifier"/>
         <status value="active"/>
         <description value="Business Identifier for item"/>
         <code value="identifier"/>
@@ -72,7 +72,7 @@
         <extension url="http://hl7.org/fhir/build/StructureDefinition/path">
           <valueString value="Invoice.issuer"/>
         </extension>
-        <url value="http://hl7.org/fhir/build/SearchParameter/Invoice-issuer"/>
+        <url value="http://hl7.org/fhir/SearchParameter/Invoice-issuer"/>
         <status value="active"/>
         <description value="Issuing Organization of Invoice"/>
         <code value="issuer"/>
@@ -92,7 +92,7 @@
         <extension url="http://hl7.org/fhir/build/StructureDefinition/path">
           <valueString value="Invoice.participant.actor"/>
         </extension>
-        <url value="http://hl7.org/fhir/build/SearchParameter/Invoice-participant"/>
+        <url value="http://hl7.org/fhir/SearchParameter/Invoice-participant"/>
         <status value="active"/>
         <description value="Individual who was involved"/>
         <code value="participant"/>
@@ -112,7 +112,7 @@
         <extension url="http://hl7.org/fhir/build/StructureDefinition/path">
           <valueString value="Invoice.participant.role"/>
         </extension>
-        <url value="http://hl7.org/fhir/build/SearchParameter/Invoice-participant-role"/>
+        <url value="http://hl7.org/fhir/SearchParameter/Invoice-participant-role"/>
         <status value="active"/>
         <description value="Type of involvement in creation of this Invoice"/>
         <code value="participant-role"/>
@@ -132,7 +132,7 @@
         <extension url="http://hl7.org/fhir/build/StructureDefinition/path">
           <valueString value="Invoice.subject"/>
         </extension>
-        <url value="http://hl7.org/fhir/build/SearchParameter/Invoice-patient"/>
+        <url value="http://hl7.org/fhir/SearchParameter/Invoice-patient"/>
         <status value="active"/>
         <description value="Recipient(s) of goods and services"/>
         <code value="patient"/>
@@ -153,7 +153,7 @@
         <extension url="http://hl7.org/fhir/build/StructureDefinition/path">
           <valueString value="Invoice.recipient"/>
         </extension>
-        <url value="http://hl7.org/fhir/build/SearchParameter/Invoice-recipient"/>
+        <url value="http://hl7.org/fhir/SearchParameter/Invoice-recipient"/>
         <status value="active"/>
         <description value="Recipient of this invoice"/>
         <code value="recipient"/>
@@ -173,7 +173,7 @@
         <extension url="http://hl7.org/fhir/build/StructureDefinition/path">
           <valueString value="Invoice.status"/>
         </extension>
-        <url value="http://hl7.org/fhir/build/SearchParameter/Invoice-status"/>
+        <url value="http://hl7.org/fhir/SearchParameter/Invoice-status"/>
         <status value="active"/>
         <description value="draft | issued | balanced | cancelled | entered-in-error"/>
         <code value="status"/>
@@ -193,7 +193,7 @@
         <extension url="http://hl7.org/fhir/build/StructureDefinition/path">
           <valueString value="Invoice.subject"/>
         </extension>
-        <url value="http://hl7.org/fhir/build/SearchParameter/Invoice-subject"/>
+        <url value="http://hl7.org/fhir/SearchParameter/Invoice-subject"/>
         <status value="active"/>
         <description value="Recipient(s) of goods and services"/>
         <code value="subject"/>
@@ -213,7 +213,7 @@
         <extension url="http://hl7.org/fhir/build/StructureDefinition/path">
           <valueString value="Invoice.totalGross"/>
         </extension>
-        <url value="http://hl7.org/fhir/build/SearchParameter/Invoice-totalgross"/>
+        <url value="http://hl7.org/fhir/SearchParameter/Invoice-totalgross"/>
         <status value="active"/>
         <description value="Gross total of this Invoice"/>
         <code value="totalgross"/>
@@ -233,7 +233,7 @@
         <extension url="http://hl7.org/fhir/build/StructureDefinition/path">
           <valueString value="Invoice.totalNet"/>
         </extension>
-        <url value="http://hl7.org/fhir/build/SearchParameter/Invoice-totalnet"/>
+        <url value="http://hl7.org/fhir/SearchParameter/Invoice-totalnet"/>
         <status value="active"/>
         <description value="Net total of this Invoice"/>
         <code value="totalnet"/>
@@ -253,7 +253,7 @@
         <extension url="http://hl7.org/fhir/build/StructureDefinition/path">
           <valueString value="Invoice.type"/>
         </extension>
-        <url value="http://hl7.org/fhir/build/SearchParameter/Invoice-type"/>
+        <url value="http://hl7.org/fhir/SearchParameter/Invoice-type"/>
         <status value="active"/>
         <description value="Type of Invoice"/>
         <code value="type"/>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../publish/invoice.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Invoice xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/invoice.xsd">
+<Invoice xmlns="http://hl7.org/fhir" resourceDefinition="http://hl7.org/fhir/StructureDefinition/Invoice|0.1.0">
 	<id value="example"/>
 	<text>
 		<status value="generated"/>

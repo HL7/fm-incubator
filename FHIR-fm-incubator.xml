@@ -5,6 +5,8 @@
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
 <artifact id="EnrollmentRequest/22345" key="EnrollmentRequest-22345" name="22345"/>
+<artifact id="ValueSet/insuranceplan-applicability" key="ValueSet-insuranceplan-applicability" name="Benefit Cost Applicability"/>
+<artifact id="ValueSet/insuranceproduct-applicability" key="ValueSet-insuranceproduct-applicability" name="Benefit Cost Applicability"/>
 <artifact id="CodeSystem/enrollment-outcome" key="CodeSystem-enrollment-outcome" name="Claim Processing Codes"/>
 <artifact id="EnrollmentResponse/ER2500" key="EnrollmentResponse-ER2500" name="ER2500"/>
 <artifact id="ValueSet/enrollment-outcome" key="ValueSet-enrollment-outcome" name="Enrollment Outcome"/>
@@ -22,15 +24,43 @@
 <artifact id="SearchParameter/EnrollmentResponse-patient" key="SearchParameter-EnrollmentResponse-patient" name="EnrollmentResponsePatientSearchParam"/>
 <artifact id="SearchParameter/EnrollmentResponse-request" key="SearchParameter-EnrollmentResponse-request" name="EnrollmentResponseRequestSearchParam"/>
 <artifact id="SearchParameter/EnrollmentResponse-status" key="SearchParameter-EnrollmentResponse-status" name="EnrollmentResponseStatusSearchParam"/>
+<artifact id="InsuranceProduct/example1" key="InsuranceProduct-example1" name="Health Level Seven International Staff Plan"/>
+<artifact id="StructureDefinition/InsurancePlan" key="StructureDefinition-InsurancePlan" name="Insurance Plan"/>
+<artifact id="ValueSet/insuranceplan-type" key="ValueSet-insuranceplan-type" name="Insurance Plan Type"/>
+<artifact id="ValueSet/insuranceproduct-type" key="ValueSet-insuranceproduct-type" name="Insurance Plan Type"/>
+<artifact id="StructureDefinition/InsuranceProduct" key="StructureDefinition-InsuranceProduct" name="Insurance Product"/>
+<artifact id="List/InsurancePlan-examples" key="List-InsurancePlan-examples" name="InsurancePlan-examples"/>
+<artifact id="List/InsurancePlan-operations" key="List-InsurancePlan-operations" name="InsurancePlan-operations"/>
+<artifact id="SearchParameter/InsurancePlan-coverage-area" key="SearchParameter-InsurancePlan-coverage-area" name="InsurancePlanCoverageAreaSearchParam"/>
+<artifact id="SearchParameter/InsurancePlan-identifier" key="SearchParameter-InsurancePlan-identifier" name="InsurancePlanIdentifierSearchParam"/>
+<artifact id="SearchParameter/InsurancePlan-network" key="SearchParameter-InsurancePlan-network" name="InsurancePlanNetworkSearchParam"/>
+<artifact id="SearchParameter/InsurancePlan-product" key="SearchParameter-InsurancePlan-product" name="InsurancePlanProductSearchParam"/>
+<artifact id="SearchParameter/InsurancePlan-type" key="SearchParameter-InsurancePlan-type" name="InsurancePlanTypeSearchParam"/>
+<artifact id="List/InsuranceProduct-examples" key="List-InsuranceProduct-examples" name="InsuranceProduct-examples"/>
+<artifact id="List/InsuranceProduct-operations" key="List-InsuranceProduct-operations" name="InsuranceProduct-operations"/>
+<artifact id="SearchParameter/InsuranceProduct-administered-by" key="SearchParameter-InsuranceProduct-administered-by" name="InsuranceProductAdministeredBySearchParam"/>
+<artifact id="SearchParameter/InsuranceProduct-contact-address-city" key="SearchParameter-InsuranceProduct-contact-address-city" name="InsuranceProductContactAddressCitySearchParam"/>
+<artifact id="SearchParameter/InsuranceProduct-contact-address-country" key="SearchParameter-InsuranceProduct-contact-address-country" name="InsuranceProductContactAddressCountrySearchParam"/>
+<artifact id="SearchParameter/InsuranceProduct-contact-address-postalcode" key="SearchParameter-InsuranceProduct-contact-address-postalcode" name="InsuranceProductContactAddressPostalcodeSearchParam"/>
+<artifact id="SearchParameter/InsuranceProduct-contact-address" key="SearchParameter-InsuranceProduct-contact-address" name="InsuranceProductContactAddressSearchParam"/>
+<artifact id="SearchParameter/InsuranceProduct-contact-address-state" key="SearchParameter-InsuranceProduct-contact-address-state" name="InsuranceProductContactAddressStateSearchParam"/>
+<artifact id="SearchParameter/InsuranceProduct-contact-address-use" key="SearchParameter-InsuranceProduct-contact-address-use" name="InsuranceProductContactAddressUseSearchParam"/>
+<artifact id="SearchParameter/InsuranceProduct-endpoint" key="SearchParameter-InsuranceProduct-endpoint" name="InsuranceProductEndpointSearchParam"/>
+<artifact id="SearchParameter/InsuranceProduct-identifier" key="SearchParameter-InsuranceProduct-identifier" name="InsuranceProductIdentifierSearchParam"/>
+<artifact id="SearchParameter/InsuranceProduct-name" key="SearchParameter-InsuranceProduct-name" name="InsuranceProductNameSearchParam"/>
+<artifact id="SearchParameter/InsuranceProduct-owned-by" key="SearchParameter-InsuranceProduct-owned-by" name="InsuranceProductOwnedBySearchParam"/>
+<artifact id="SearchParameter/InsuranceProduct-phonetic" key="SearchParameter-InsuranceProduct-phonetic" name="InsuranceProductPhoneticSearchParam"/>
+<artifact id="SearchParameter/InsuranceProduct-status" key="SearchParameter-InsuranceProduct-status" name="InsuranceProductStatusSearchParam"/>
+<artifact id="SearchParameter/InsuranceProduct-type" key="SearchParameter-InsuranceProduct-type" name="InsuranceProductTypeSearchParam"/>
 <artifact id="StructureDefinition/Invoice" key="StructureDefinition-Invoice" name="Invoice"/>
-<artifact id="ValueSet/invoice-status" key="ValueSet-invoice-status" name="Invoice Status"/>
 <artifact id="CodeSystem/invoice-status" key="CodeSystem-invoice-status" name="Invoice Status"/>
+<artifact id="ValueSet/invoice-status" key="ValueSet-invoice-status" name="Invoice Status ValueSet"/>
 <artifact id="List/Invoice-examples" key="List-Invoice-examples" name="Invoice-examples"/>
 <artifact id="SearchParameter/Invoice-account" key="SearchParameter-Invoice-account" name="InvoiceAccountSearchParam"/>
 <artifact id="SearchParameter/Invoice-date" key="SearchParameter-Invoice-date" name="InvoiceDateSearchParam"/>
 <artifact id="SearchParameter/Invoice-identifier" key="SearchParameter-Invoice-identifier" name="InvoiceIdentifierSearchParam"/>
 <artifact id="SearchParameter/Invoice-issuer" key="SearchParameter-Invoice-issuer" name="InvoiceIssuerSearchParam"/>
-<artifact id="SearchParameter/Invoice-participant-role" key="SearchParameter-Invoice-participant-role" name="InvoiceParticipant-roleSearchParam"/>
+<artifact id="SearchParameter/Invoice-participant-role" key="SearchParameter-Invoice-participant-role" name="InvoiceParticipantRoleSearchParam"/>
 <artifact id="SearchParameter/Invoice-participant" key="SearchParameter-Invoice-participant" name="InvoiceParticipantSearchParam"/>
 <artifact id="SearchParameter/Invoice-patient" key="SearchParameter-Invoice-patient" name="InvoicePatientSearchParam"/>
 <artifact id="SearchParameter/Invoice-recipient" key="SearchParameter-Invoice-recipient" name="InvoiceRecipientSearchParam"/>
@@ -39,7 +69,12 @@
 <artifact id="SearchParameter/Invoice-totalgross" key="SearchParameter-Invoice-totalgross" name="InvoiceTotalgrossSearchParam"/>
 <artifact id="SearchParameter/Invoice-totalnet" key="SearchParameter-Invoice-totalnet" name="InvoiceTotalnetSearchParam"/>
 <artifact id="SearchParameter/Invoice-type" key="SearchParameter-Invoice-type" name="InvoiceTypeSearchParam"/>
+<artifact id="InsuranceProduct/example-onc" key="InsuranceProduct-example-onc" name="Sample Plan"/>
 <artifact id="Invoice/example" key="Invoice-example" name="example"/>
+<artifact id="InsurancePlan/example-onc" key="InsurancePlan-example-onc" name="example-onc"/>
+<artifact id="InsurancePlan/example1" key="InsurancePlan-example1" name="example1"/>
+<artifact id="InsurancePlan/example" key="InsurancePlan-example" name="foo"/>
+<artifact id="InsuranceProduct/example" key="InsuranceProduct-example" name="foo"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts Summary"/>

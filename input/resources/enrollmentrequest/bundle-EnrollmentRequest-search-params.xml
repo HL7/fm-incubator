@@ -12,7 +12,7 @@
         <extension url="http://hl7.org/fhir/build/StructureDefinition/path">
           <valueString value="EnrollmentRequest.identifier"/>
         </extension>
-        <url value="http://hl7.org/fhir/build/SearchParameter/EnrollmentRequest-identifier"/>
+        <url value="http://hl7.org/fhir/SearchParameter/EnrollmentRequest-identifier"/>
         <status value="active"/>
         <description value="The business identifier of the Enrollment"/>
         <code value="identifier"/>
@@ -32,7 +32,7 @@
         <extension url="http://hl7.org/fhir/build/StructureDefinition/path">
           <valueString value="EnrollmentRequest.candidate"/>
         </extension>
-        <url value="http://hl7.org/fhir/build/SearchParameter/EnrollmentRequest-patient"/>
+        <url value="http://hl7.org/fhir/SearchParameter/EnrollmentRequest-patient"/>
         <status value="active"/>
         <description value="The party to be enrolled"/>
         <code value="patient"/>
@@ -53,7 +53,7 @@
         <extension url="http://hl7.org/fhir/build/StructureDefinition/path">
           <valueString value="EnrollmentRequest.candidate"/>
         </extension>
-        <url value="http://hl7.org/fhir/build/SearchParameter/EnrollmentRequest-group"/>
+        <url value="http://hl7.org/fhir/SearchParameter/EnrollmentRequest-group"/>
         <status value="active"/>
         <description value="The parties to be enrolled"/>
         <code value="group"/>
@@ -74,7 +74,7 @@
         <extension url="http://hl7.org/fhir/build/StructureDefinition/path">
           <valueString value="EnrollmentRequest.status"/>
         </extension>
-        <url value="http://hl7.org/fhir/build/SearchParameter/EnrollmentRequest-status"/>
+        <url value="http://hl7.org/fhir/SearchParameter/EnrollmentRequest-status"/>
         <status value="active"/>
         <description value="The status of the enrollment"/>
         <code value="status"/>
@@ -94,7 +94,7 @@
         <extension url="http://hl7.org/fhir/build/StructureDefinition/path">
           <valueString value="EnrollmentRequest.candidate"/>
         </extension>
-        <url value="http://hl7.org/fhir/build/SearchParameter/EnrollmentRequest-subject"/>
+        <url value="http://hl7.org/fhir/SearchParameter/EnrollmentRequest-subject"/>
         <status value="active"/>
         <description value="The party to be enrolled"/>
         <code value="subject"/>

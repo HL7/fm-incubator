@@ -1,4 +1,4 @@
-<EnrollmentRequest xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/remittance.xsd">
+<EnrollmentRequest xmlns="http://hl7.org/fhir" resourceDefinition="http://hl7.org/fhir/StructureDefinition/EnrollmentRequest|0.1.0">
  <id value="22345"/>
 
  <text>

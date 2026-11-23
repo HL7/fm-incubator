@@ -11,6 +11,8 @@ The current incubator content includes:
 - EnrollmentRequest
 - EnrollmentResponse
 - Invoice
+- InsuranceProduct
+- InsurancePlan
 
 ## Prerequisites
 

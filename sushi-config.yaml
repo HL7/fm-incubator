@@ -4,9 +4,9 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.uv.fm-incubator
-canonical: http://hl7.org/fhir/uv/fm-incubator
-name: FM Incubator
-title: FHIR R6 FM Incubator
+canonical: http://hl7.org/fhir/uv/fm-incubator/ImplementationGuide/hl7.fhir.uv.fm-incubator
+name: FinancialIncubator
+title: FHIR R6 Financial Incubator
 description: A guide that details how to capture and exchange Financial Management (FM) data in FHIR
 status: active # draft | active | retired | unknown
 version: 0.1.0
@@ -27,6 +27,7 @@ extension:
     valueCode: fm
 
 dependencies:
+  hl7.fhir.r6.examples: 6.0.0-snapshot1
 
 parameters:
   apply-publisher: true

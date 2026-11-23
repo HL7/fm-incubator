@@ -24,10 +24,6 @@
     <valueCode value=".status = retired"/>
   </extension>
   <url value="http://hl7.org/fhir/StructureDefinition/InsuranceProduct"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.4.642.5.1354"/>
-  </identifier>
   
   <name value="InsuranceProduct"/>
   <title value="Insurance Product"/>
@@ -181,9 +177,6 @@
       </mapping>
     </element>
     <element id="InsuranceProduct.alias">
-      <extension url="http://hl7.org/fhir/StructureDefinition/committee-notes">
-        <valueString value="This is used in many registries, and is often very important in searching."/>
-      </extension>
       <path value="InsuranceProduct.alias"/>
       <short value="Alternate names"/>
       <definition value="A list of alternate names that the product is known as, or was known as in the past."/>
