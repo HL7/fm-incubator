@@ -101,7 +101,7 @@
   <concept>
     <code value="rejected"/>
     <display value="Rejected"/>
-    <definition value=" Execution of the Contract is not completed because either or both the Grantor and Grantee decline to accept some or all of the contract provisions. Usage: Optional contract activity between executable and abnormal termination. Precedence Order = 5. Comparable FHIR and v.3 status codes:  stopped; cancelled."/>
+    <definition value="Execution of the Contract is not completed because either or both the Grantor and Grantee decline to accept some or all of the contract provisions. Usage: Optional contract activity between executable and abnormal termination. Precedence Order = 5. Comparable FHIR and v.3 status codes:  stopped; cancelled."/>
   </concept>
   <concept>
     <code value="renewed"/>
