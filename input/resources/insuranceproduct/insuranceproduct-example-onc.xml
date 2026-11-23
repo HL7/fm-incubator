@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<InsuranceProduct xmlns="http://hl7.org/fhir" resourceDefinition="http://hl7.org/fhir/StructureDefinition/InsuranceProduct|0.1.0">
+    <id value="example-onc" />
+    <text>
+        <status value="generated" />
+        <div xmlns="http://www.w3.org/1999/xhtml">
+			Sample Plan
+        </div>
+    </text>
+    <identifier>
+      <system value="urn:ietf:rfc:3986"/>
+      <value value="urn:oid:2.16.840.1.113883.4.642.33.3"/>
+    </identifier>
+    <status value="active" />
+    <name value="Sample Plan" />
+    <alias value="PPO Sample Plan" />
+    <period>
+        <start value="2017-01-01" />
+    </period>
+    <ownedBy>
+        <reference value="Organization/Test" />
+        <display value="Test" />
+    </ownedBy>
+    <administeredBy>
+        <reference value="Organization/Test" />
+        <display value="Test" />
+    </administeredBy>
+    <coverageArea>
+        <reference value="Location/2" />
+        <display value="National" />
+    </coverageArea>
+    <contact>
+        <address>
+            <line value="123 Fake Street" />
+            <city value="Washington" />
+            <state value="DC" />
+            <postalCode value="20005" />
+            <country value="USA" />
+        </address>
+    </contact>
+    <endpoint>
+        <reference value="Endpoint/example" />
+    </endpoint>
+    <coverage>
+        <type>
+            <text value="Medical" />
+        </type>
+        <benefit>
+            <type>
+                <text value="Diagnostic and treatment services" />
+            </type>
+            <limit>
+                <code>
+                    <text value="primary care visit" />
+                </code>
+            </limit>
+            <limit>
+                <code>
+                    <text value="specialty care visit" />
+                </code>
+            </limit>
+        </benefit>
+    </coverage>
+</InsuranceProduct>

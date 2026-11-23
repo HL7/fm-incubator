@@ -40,11 +40,15 @@ parameters:
     - input/resources/invoice
     - input/resources/enrollmentrequest
     - input/resources/enrollmentresponse
+    - input/resources/insuranceplan
+    - input/resources/insuranceproduct
   special-url-base: http://hl7.org/fhir
   additional-resource: 
     - input/resources/invoice/StructureDefinition-Invoice.xml
     - input/resources/enrollmentrequest/StructureDefinition-EnrollmentRequest.xml
     - input/resources/enrollmentresponse/StructureDefinition-EnrollmentResponse.xml
+    - input/resources/insuranceplan/StructureDefinition-InsurancePlan.xml
+    - input/resources/insuranceproduct/StructureDefinition-InsuranceProduct.xml
 
 pages:
   index.md:
