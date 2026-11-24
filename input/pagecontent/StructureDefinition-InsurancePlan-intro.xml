@@ -18,7 +18,7 @@
 <a name="bnr"></a>
 <h3>Boundaries and Relationships</h3>
 <p>
-    <a href="insuranceproduct.html">InsuranceProduct</a> describes a list of covered benefits and networks as well as details about who
+    <a href="StructureDefinition-InsuranceProduct.html">InsuranceProduct</a> describes a list of covered benefits and networks as well as details about who
     administers the product and applicable coverage areas.
 </p>
 <p>
@@ -27,7 +27,7 @@
     are described in the InsuranceProduct referenced in InsurancePlan.product.
 </p>
 <p>
-    A <a href="coverage.html">Coverage</a> resource establishes the link between an InsurancePlan and a beneficiary and optionally a subscriber. 
+    A <a href="{{site.data.fhir.path}}coverage.html">Coverage</a> resource establishes the link between an InsurancePlan and a beneficiary and optionally a subscriber. 
 </p>
 </div>
 
