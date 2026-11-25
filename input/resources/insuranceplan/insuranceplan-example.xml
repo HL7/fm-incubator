@@ -1,7 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <InsurancePlan xmlns="http://hl7.org/fhir" resourceDefinition="http://hl7.org/fhir/StructureDefinition/InsurancePlan|0.1.0">
-<id value = "example"></id>
-<name value="foo"/>
-
-  
+  <id value="example"/>
+  <text>
+    <status value="additional"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <h2>Example Silver Individual Plan</h2>
+      <p>This fictional plan illustrates cost sharing for the benefits described by
+        <a href="InsuranceProduct-example.html">InsuranceProduct/example</a>.</p>
+      <p>The monthly premium is USD 450 for one enrollee. The annual deductible is
+        USD 1,500 per enrollee and applies before coinsurance. In-network office
+        visit copayments are not subject to the deductible.</p>
+      <table border="1">
+        <thead>
+          <tr><th>Medical benefit</th><th>In-network member cost</th><th>Out-of-network member cost</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Primary care office visit</td><td>USD 25 copayment per visit</td><td>40% coinsurance after deductible</td></tr>
+          <tr><td>Specialty care office visit</td><td>USD 50 copayment per visit</td><td>40% coinsurance after deductible</td></tr>
+        </tbody>
+      </table>
+      <p>These illustrative amounts do not represent an actual insurance offering.</p>
+    </div>
+  </text>
+  <identifier>
+    <system value="https://example.org/insurance/plan-identifiers"/>
+    <value value="SILVER-INDIVIDUAL"/>
+  </identifier>
+  <type>
+    <text value="Silver"/>
+  </type>
+  <product>
+    <reference value="InsuranceProduct/example"/>
+  </product>
+  <generalCost>
+    <type>
+      <text value="Monthly premium"/>
+    </type>
+    <groupSize value="1"/>
+    <cost>
+      <value value="450"/>
+      <currency value="USD"/>
+    </cost>
+    <comment value="Monthly premium for individual coverage with one enrollee."/>
+  </generalCost>
+  <generalCost>
+    <type>
+      <text value="Annual individual deductible"/>
+    </type>
+    <cost>
+      <value value="1500"/>
+      <currency value="USD"/>
+    </cost>
+    <comment value="Annual deductible per enrollee. Applies before coinsurance; in-network office visit copayments are not subject to the deductible."/>
+  </generalCost>
+  <specificCost>
+    <category>
+      <text value="Medical"/>
+    </category>
+    <benefit>
+      <type>
+        <text value="Primary care office visit"/>
+      </type>
+      <cost>
+        <type>
+          <text value="Copayment"/>
+        </type>
+        <applicability>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/applicability"/>
+            <code value="in-network"/>
+          </coding>
+        </applicability>
+        <qualifier>
+          <text value="Per visit; deductible does not apply"/>
+        </qualifier>
+        <value>
+          <value value="25"/>
+          <unit value="USD"/>
+          <system value="urn:iso:std:iso:4217"/>
+          <code value="USD"/>
+        </value>
+      </cost>
+      <cost>
+        <type>
+          <text value="Coinsurance"/>
+        </type>
+        <applicability>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/applicability"/>
+            <code value="out-of-network"/>
+          </coding>
+        </applicability>
+        <qualifier>
+          <text value="Member share of the allowed amount after the annual deductible"/>
+        </qualifier>
+        <value>
+          <value value="40"/>
+          <unit value="%"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="%"/>
+        </value>
+      </cost>
+    </benefit>
+    <benefit>
+      <type>
+        <text value="Specialty care office visit"/>
+      </type>
+      <cost>
+        <type>
+          <text value="Copayment"/>
+        </type>
+        <applicability>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/applicability"/>
+            <code value="in-network"/>
+          </coding>
+        </applicability>
+        <qualifier>
+          <text value="Per visit; deductible does not apply"/>
+        </qualifier>
+        <value>
+          <value value="50"/>
+          <unit value="USD"/>
+          <system value="urn:iso:std:iso:4217"/>
+          <code value="USD"/>
+        </value>
+      </cost>
+      <cost>
+        <type>
+          <text value="Coinsurance"/>
+        </type>
+        <applicability>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/applicability"/>
+            <code value="out-of-network"/>
+          </coding>
+        </applicability>
+        <qualifier>
+          <text value="Member share of the allowed amount after the annual deductible"/>
+        </qualifier>
+        <value>
+          <value value="40"/>
+          <unit value="%"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="%"/>
+        </value>
+      </cost>
+    </benefit>
+  </specificCost>
 </InsurancePlan>

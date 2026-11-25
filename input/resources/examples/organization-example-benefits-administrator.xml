@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="example-benefits-administrator"/>
+  <text>
+    <status value="additional"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <h2>Example Benefits Administration</h2>
+      <p>This fictional active third-party administrator provides claims processing
+        and member services for the
+        <a href="InsuranceProduct-example-onc.html">Sample Plan PPO product</a> on behalf of
+        <a href="Organization-example-health-insurance.html">Example Health Insurance</a>.</p>
+      <p>The insurer, not this administrator, underwrites the product.</p>
+      <p>Business identifier: EBA. Website:
+        <a href="https://example.org/benefits-administration">https://example.org/benefits-administration</a>.</p>
+      <p>This example does not represent an actual organization.</p>
+    </div>
+  </text>
+  <identifier>
+    <system value="https://example.org/organization-identifiers"/>
+    <value value="EBA"/>
+  </identifier>
+  <active value="true"/>
+  <type>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/organization-type"/>
+      <code value="pay"/>
+      <display value="Payer"/>
+    </coding>
+    <text value="Third-party benefits administrator"/>
+  </type>
+  <name value="Example Benefits Administration"/>
+  <description value="Fictional third-party administrator providing claims processing and member services for the Sample Plan PPO product on behalf of Example Health Insurance."/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://example.org/benefits-administration"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+</Organization>

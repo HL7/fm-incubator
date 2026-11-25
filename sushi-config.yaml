@@ -44,6 +44,7 @@ parameters:
     - input/resources/enrollmentresponse
     - input/resources/insuranceplan
     - input/resources/insuranceproduct
+    - input/resources/examples
   special-url-base: http://hl7.org/fhir
   additional-resource: 
     - input/resources/invoice/StructureDefinition-Invoice.xml
@@ -60,22 +61,37 @@ pages:
 
 resources:
   EnrollmentRequest/22345:
+    name: Enrollment Request Example
     description: Enrollment request referencing a patient, insurer, provider organization, and coverage.
   EnrollmentResponse/ER2500:
+    name: Enrollment Response Example
     description: Completed enrollment response confirming that a dependent was added to a policy.
+  Organization/example-health-insurance:
+    name: Health Insurance Company Example
+    description: Fictional insurer that owns and underwrites the Sample Plan PPO product, delegating claims processing and member services to Example Benefits Administration.
+  Organization/example-benefits-administrator:
+    name: Benefits Administrator Example
+    description: Fictional third-party administrator providing claims processing and member services for the Sample Plan PPO product on behalf of Example Health Insurance.
   InsurancePlan/example:
-    description: Minimal insurance plan example containing a resource ID and placeholder name.
+    name: Silver Individual Insurance Plan Example
+    description: Fictional Silver individual plan linked to InsuranceProduct/example, illustrating a monthly premium, annual deductible, and in-network copayments and out-of-network coinsurance for primary and specialty care visits.
   InsuranceProduct/example:
-    description: Minimal insurance product example containing an identifier and placeholder name.
+    name: Individual Medical Insurance Product Example
+    description: Fictional PPO product issued and administered by Example Health Insurance, covering primary and specialty care visits without referrals; associated premiums and cost sharing are illustrated by InsurancePlan/example.
   InsuranceProduct/example1:
+    name: HL7 Staff Insurance Product Example
     description: Fictional HL7 International staff insurance product illustrating ownership, administration, contacts, and substance abuse coverage with a primary care benefit; does not represent actual HL7 insurance coverage.
   InsuranceProduct/example-onc:
-    description: Sample PPO insurance product with national coverage for diagnostic and treatment services, including primary and specialty care visits.
+    name: PPO Insurance Product Example
+    description: Fictional PPO insurance product owned by Example Health Insurance and administered by Example Benefits Administration, with national coverage for diagnostic and treatment services, including primary and specialty care visits.
   InsurancePlan/example-onc:
+    name: Standard Insurance Plan Example
     description: Standard insurance plan illustrating a general cost and primary and specialty care copayments and coinsurance for in-network and out-of-network care.
   InsurancePlan/example1:
+    name: HL7 Staff Insurance Plan Example
     description: Fictional HL7 International staff plan illustrating a Silver plan type and a general cost of USD 2,000; does not represent an actual HL7 insurance plan.
   Invoice/example:
+    name: Invoice Example
     description: Issued patient invoice identifying a cardiologist participant and cardiology department issuer, with totals of EUR 40 net and EUR 48 gross.
 
 menu:

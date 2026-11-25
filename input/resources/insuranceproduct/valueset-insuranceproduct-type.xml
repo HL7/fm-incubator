@@ -11,8 +11,8 @@
     <value value="urn:oid:2.16.840.1.113883.4.642.3.872"/>
   </identifier>
   
-  <name value="InsurancePlanType"/>
-  <title value="Insurance Plan Type"/>
+  <name value="InsuranceProductType"/>
+  <title value="Insurance Product Type"/>
   <status value="draft"/>
   <experimental value="true"/>
   <publisher value="FHIR Project team"/>

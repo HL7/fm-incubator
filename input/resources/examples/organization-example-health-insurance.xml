@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="example-health-insurance"/>
+  <text>
+    <status value="additional"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <h2>Example Health Insurance</h2>
+      <p>This fictional active insurance company owns and underwrites the
+        <a href="InsuranceProduct-example-onc.html">Sample Plan PPO product</a>.</p>
+      <p>Claims processing and member services are delegated to
+        <a href="Organization-example-benefits-administrator.html">Example Benefits Administration</a>.</p>
+      <p>Business identifier: EHI. Website:
+        <a href="https://example.org/insurance">https://example.org/insurance</a>.</p>
+      <p>This example does not represent an actual organization.</p>
+    </div>
+  </text>
+  <identifier>
+    <system value="https://example.org/organization-identifiers"/>
+    <value value="EHI"/>
+  </identifier>
+  <active value="true"/>
+  <type>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/organization-type"/>
+      <code value="ins"/>
+      <display value="Insurance Company"/>
+    </coding>
+  </type>
+  <name value="Example Health Insurance"/>
+  <description value="Fictional insurer that owns and underwrites the Sample Plan PPO product."/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://example.org/insurance"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+</Organization>

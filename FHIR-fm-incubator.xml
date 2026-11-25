@@ -4,14 +4,12 @@
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
-<artifact id="EnrollmentRequest/22345" key="EnrollmentRequest-22345" name="22345"/>
-<artifact id="ValueSet/insuranceplan-applicability" key="ValueSet-insuranceplan-applicability" name="Benefit Cost Applicability"/>
-<artifact id="ValueSet/insuranceproduct-applicability" key="ValueSet-insuranceproduct-applicability" name="Benefit Cost Applicability"/>
 <artifact id="CodeSystem/enrollment-outcome" key="CodeSystem-enrollment-outcome" name="Claim Processing Codes"/>
-<artifact id="EnrollmentResponse/ER2500" key="EnrollmentResponse-ER2500" name="ER2500"/>
 <artifact id="ValueSet/enrollment-outcome" key="ValueSet-enrollment-outcome" name="Enrollment Outcome"/>
 <artifact id="StructureDefinition/EnrollmentRequest" key="StructureDefinition-EnrollmentRequest" name="Enrollment Request"/>
+<artifact id="EnrollmentRequest/22345" key="EnrollmentRequest-22345" name="Enrollment Request Example"/>
 <artifact id="StructureDefinition/EnrollmentResponse" key="StructureDefinition-EnrollmentResponse" name="Enrollment Response"/>
+<artifact id="EnrollmentResponse/ER2500" key="EnrollmentResponse-ER2500" name="Enrollment Response Example"/>
 <artifact id="SearchParameter/EnrollmentRequest-group" key="SearchParameter-EnrollmentRequest-group" name="EnrollmentRequestGroupSearchParam"/>
 <artifact id="SearchParameter/EnrollmentRequest-identifier" key="SearchParameter-EnrollmentRequest-identifier" name="EnrollmentRequestIdentifierSearchParam"/>
 <artifact id="SearchParameter/EnrollmentRequest-patient" key="SearchParameter-EnrollmentRequest-patient" name="EnrollmentRequestPatientSearchParam"/>
@@ -22,11 +20,13 @@
 <artifact id="SearchParameter/EnrollmentResponse-patient" key="SearchParameter-EnrollmentResponse-patient" name="EnrollmentResponsePatientSearchParam"/>
 <artifact id="SearchParameter/EnrollmentResponse-request" key="SearchParameter-EnrollmentResponse-request" name="EnrollmentResponseRequestSearchParam"/>
 <artifact id="SearchParameter/EnrollmentResponse-status" key="SearchParameter-EnrollmentResponse-status" name="EnrollmentResponseStatusSearchParam"/>
-<artifact id="InsuranceProduct/example1" key="InsuranceProduct-example1" name="Health Level Seven International Staff Plan"/>
+<artifact id="InsurancePlan/example1" key="InsurancePlan-example1" name="HL7 Staff Insurance Plan Example"/>
+<artifact id="InsuranceProduct/example1" key="InsuranceProduct-example1" name="HL7 Staff Insurance Product Example"/>
+<artifact id="InsuranceProduct/example" key="InsuranceProduct-example" name="Individual Medical Insurance Product Example"/>
 <artifact id="StructureDefinition/InsurancePlan" key="StructureDefinition-InsurancePlan" name="Insurance Plan"/>
 <artifact id="ValueSet/insuranceplan-type" key="ValueSet-insuranceplan-type" name="Insurance Plan Type"/>
-<artifact id="ValueSet/insuranceproduct-type" key="ValueSet-insuranceproduct-type" name="Insurance Plan Type"/>
 <artifact id="StructureDefinition/InsuranceProduct" key="StructureDefinition-InsuranceProduct" name="Insurance Product"/>
+<artifact id="ValueSet/insuranceproduct-type" key="ValueSet-insuranceproduct-type" name="Insurance Product Type"/>
 <artifact id="SearchParameter/InsurancePlan-coverage-area" key="SearchParameter-InsurancePlan-coverage-area" name="InsurancePlanCoverageAreaSearchParam"/>
 <artifact id="SearchParameter/InsurancePlan-identifier" key="SearchParameter-InsurancePlan-identifier" name="InsurancePlanIdentifierSearchParam"/>
 <artifact id="SearchParameter/InsurancePlan-network" key="SearchParameter-InsurancePlan-network" name="InsurancePlanNetworkSearchParam"/>
@@ -47,6 +47,7 @@
 <artifact id="SearchParameter/InsuranceProduct-status" key="SearchParameter-InsuranceProduct-status" name="InsuranceProductStatusSearchParam"/>
 <artifact id="SearchParameter/InsuranceProduct-type" key="SearchParameter-InsuranceProduct-type" name="InsuranceProductTypeSearchParam"/>
 <artifact id="StructureDefinition/Invoice" key="StructureDefinition-Invoice" name="Invoice"/>
+<artifact id="Invoice/example" key="Invoice-example" name="Invoice Example"/>
 <artifact id="CodeSystem/invoice-status" key="CodeSystem-invoice-status" name="Invoice Status"/>
 <artifact id="ValueSet/invoice-status" key="ValueSet-invoice-status" name="Invoice Status ValueSet"/>
 <artifact id="SearchParameter/Invoice-account" key="SearchParameter-Invoice-account" name="InvoiceAccountSearchParam"/>
@@ -62,12 +63,11 @@
 <artifact id="SearchParameter/Invoice-totalgross" key="SearchParameter-Invoice-totalgross" name="InvoiceTotalgrossSearchParam"/>
 <artifact id="SearchParameter/Invoice-totalnet" key="SearchParameter-Invoice-totalnet" name="InvoiceTotalnetSearchParam"/>
 <artifact id="SearchParameter/Invoice-type" key="SearchParameter-Invoice-type" name="InvoiceTypeSearchParam"/>
-<artifact id="InsuranceProduct/example-onc" key="InsuranceProduct-example-onc" name="Sample Plan"/>
-<artifact id="Invoice/example" key="Invoice-example" name="example"/>
-<artifact id="InsurancePlan/example-onc" key="InsurancePlan-example-onc" name="example-onc"/>
-<artifact id="InsurancePlan/example1" key="InsurancePlan-example1" name="example1"/>
-<artifact id="InsurancePlan/example" key="InsurancePlan-example" name="foo"/>
-<artifact id="InsuranceProduct/example" key="InsuranceProduct-example" name="foo"/>
+<artifact id="InsuranceProduct/example-onc" key="InsuranceProduct-example-onc" name="PPO Insurance Product Example"/>
+<artifact id="ValueSet/insuranceplan-applicability" key="ValueSet-insuranceplan-applicability" name="Plan Benefit Cost Applicability"/>
+<artifact id="ValueSet/insuranceproduct-applicability" key="ValueSet-insuranceproduct-applicability" name="Product Benefit Cost Applicability"/>
+<artifact id="InsurancePlan/example" key="InsurancePlan-example" name="Silver Individual Insurance Plan Example"/>
+<artifact id="InsurancePlan/example-onc" key="InsurancePlan-example-onc" name="Standard Insurance Plan Example"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts Summary"/>

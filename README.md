@@ -23,7 +23,8 @@ Install the following tools before building locally:
 
 ## Repository Layout
 
-- `input/resources/`: source conformance resources and examples (grouped by resource)
+- `input/resources/`: source conformance resources and primary examples (grouped by resource)
+- `input/resources/examples/`: shared supporting examples, such as Organizations, Locations, and Endpoints
 - `input/pagecontent/`: markdown/XML narrative pages used by the IG site
 - `sushi-config.yaml`: IG metadata and publisher parameters
 - `ig.ini`: IG entrypoint used by the publisher

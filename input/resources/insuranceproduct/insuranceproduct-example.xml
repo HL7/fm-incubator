@@ -1,10 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<InsuranceProduct xmlns="http://hl7.org/fhir" resourceDefinition="http://hl7.org/fhir/StructureDefinition/InsuranceProduct|0.1.0" >
-  <id value = "example"></id>
+<InsuranceProduct xmlns="http://hl7.org/fhir" resourceDefinition="http://hl7.org/fhir/StructureDefinition/InsuranceProduct|0.1.0">
+  <id value="example"/>
+  <text>
+    <status value="additional"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <h2>Example Individual Medical Product</h2>
+      <p>This fictional preferred provider organization (PPO) product is issued and
+        administered by Example Health Insurance for individual medical coverage.</p>
+      <table border="1">
+        <thead>
+          <tr><th>Medical benefit</th><th>Referral requirement</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Primary care office visit</td><td>No referral required</td></tr>
+          <tr><td>Specialty care office visit</td><td>No referral required</td></tr>
+        </tbody>
+      </table>
+      <p>These benefits cover both in-network and out-of-network care. Premiums,
+        deductibles, copayments, and coinsurance are described in the
+        <a href="InsurancePlan-example.html">Example Silver Individual Plan</a>.</p>
+      <p>Product enquiries: <a href="https://example.org/insurance">https://example.org/insurance</a>.</p>
+      <p>This example does not represent an actual insurance offering.</p>
+    </div>
+  </text>
+  <contained>
+    <Organization>
+      <id value="insurer"/>
+      <active value="true"/>
+      <name value="Example Health Insurance"/>
+    </Organization>
+  </contained>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.33.2"/>
   </identifier>
-  <name value="foo"/>
-  
+  <status value="active"/>
+  <type>
+    <text value="Preferred provider organization (PPO)"/>
+  </type>
+  <name value="Example Individual Medical Product"/>
+  <ownedBy>
+    <reference value="#insurer"/>
+    <display value="Example Health Insurance"/>
+  </ownedBy>
+  <administeredBy>
+    <reference value="#insurer"/>
+    <display value="Example Health Insurance"/>
+  </administeredBy>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://example.org/insurance"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <coverage>
+    <type>
+      <text value="Medical"/>
+    </type>
+    <benefit>
+      <type>
+        <text value="Primary care office visit"/>
+      </type>
+      <requirement value="No referral required for in-network or out-of-network care."/>
+    </benefit>
+    <benefit>
+      <type>
+        <text value="Specialty care office visit"/>
+      </type>
+      <requirement value="No referral required for in-network or out-of-network care."/>
+    </benefit>
+  </coverage>
 </InsuranceProduct>

@@ -2,9 +2,14 @@
 <InsuranceProduct xmlns="http://hl7.org/fhir" resourceDefinition="http://hl7.org/fhir/StructureDefinition/InsuranceProduct|0.1.0">
     <id value="example-onc" />
     <text>
-        <status value="generated" />
+        <status value="additional" />
         <div xmlns="http://www.w3.org/1999/xhtml">
-			Sample Plan
+            <h2>Sample Plan</h2>
+            <p>This fictional PPO product is owned and underwritten by
+                <a href="Organization-example-health-insurance.html">Example Health Insurance</a>.</p>
+            <p>Claims processing and member services are provided by
+                <a href="Organization-example-benefits-administrator.html">Example Benefits Administration</a>.</p>
+            <p>This example does not represent an actual insurance offering.</p>
         </div>
     </text>
     <identifier>
@@ -18,12 +23,12 @@
         <start value="2017-01-01" />
     </period>
     <ownedBy>
-        <reference value="Organization/Test" />
-        <display value="Test" />
+        <reference value="Organization/example-health-insurance" />
+        <display value="Example Health Insurance" />
     </ownedBy>
     <administeredBy>
-        <reference value="Organization/Test" />
-        <display value="Test" />
+        <reference value="Organization/example-benefits-administrator" />
+        <display value="Example Benefits Administration" />
     </administeredBy>
     <coverageArea>
         <reference value="Location/2" />
