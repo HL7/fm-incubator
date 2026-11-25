@@ -10,6 +10,9 @@
       <p>The monthly premium is USD 450 for one enrollee. The annual deductible is
         USD 1,500 per enrollee and applies before coinsurance. In-network office
         visit copayments are not subject to the deductible.</p>
+      <p>Primary and specialty care office visits are included benefits for the
+        individual enrollee, with cost sharing described for an annual benefit
+        period. Each benefit includes both in-network and out-of-network cost options.</p>
       <table border="1">
         <thead>
           <tr><th>Medical benefit</th><th>In-network member cost</th><th>Out-of-network member cost</th></tr>
@@ -61,6 +64,32 @@
       <type>
         <text value="Primary care office visit"/>
       </type>
+      <category>
+        <text value="Medical"/>
+      </category>
+      <productOrService>
+        <text value="Primary care office visit"/>
+      </productOrService>
+      <modifier>
+        <text value="Office-based services"/>
+      </modifier>
+      <excluded value="false"/>
+      <name value="Primary care"/>
+      <description value="**In-network:** USD 25 copayment per office visit; the deductible does not apply. **Out-of-network:** 40% coinsurance after the annual deductible."/>
+      <unit>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/benefit-unit"/>
+          <code value="individual"/>
+          <display value="Individual"/>
+        </coding>
+      </unit>
+      <term>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/benefit-term"/>
+          <code value="annual"/>
+          <display value="Annual"/>
+        </coding>
+      </term>
       <cost>
         <type>
           <text value="Copayment"/>
@@ -106,6 +135,32 @@
       <type>
         <text value="Specialty care office visit"/>
       </type>
+      <category>
+        <text value="Medical"/>
+      </category>
+      <productOrService>
+        <text value="Specialty care office visit"/>
+      </productOrService>
+      <modifier>
+        <text value="Office-based services"/>
+      </modifier>
+      <excluded value="false"/>
+      <name value="Specialty care"/>
+      <description value="**In-network:** USD 50 copayment per office visit; the deductible does not apply. **Out-of-network:** 40% coinsurance after the annual deductible."/>
+      <unit>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/benefit-unit"/>
+          <code value="individual"/>
+          <display value="Individual"/>
+        </coding>
+      </unit>
+      <term>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/benefit-term"/>
+          <code value="annual"/>
+          <display value="Annual"/>
+        </coding>
+      </term>
       <cost>
         <type>
           <text value="Copayment"/>

@@ -12,6 +12,13 @@
     An InsurancePlan pairs the health insurance coverage benefits under an InsuranceProduct with the particular cost sharing structure
     offered to a consumer. A given InsuranceProduct may comprise multiple InsurancePlans.
 </p>
+<p>
+    Each <code>InsurancePlan.specificCost.benefit</code> can optionally describe its category, product or service, billing modifiers,
+    exclusion status, name, description, network, individual or family unit, and benefit term. These details use the same datatypes
+    and terminology bindings as the corresponding elements in
+    <a href="{{site.data.fhir.path}}coverageeligibilityresponse.html">CoverageEligibilityResponse.insurance.item</a>.
+    Billing modifiers may repeat; the other details are single-valued.
+</p>
 </div>
 
 <div>

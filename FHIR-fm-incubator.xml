@@ -4,6 +4,7 @@
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
+<artifact id="Organization/example-benefits-administrator" key="Organization-example-benefits-administrator" name="Benefits Administrator Example"/>
 <artifact id="CodeSystem/enrollment-outcome" key="CodeSystem-enrollment-outcome" name="Claim Processing Codes"/>
 <artifact id="ValueSet/enrollment-outcome" key="ValueSet-enrollment-outcome" name="Enrollment Outcome"/>
 <artifact id="StructureDefinition/EnrollmentRequest" key="StructureDefinition-EnrollmentRequest" name="Enrollment Request"/>
@@ -22,6 +23,7 @@
 <artifact id="SearchParameter/EnrollmentResponse-status" key="SearchParameter-EnrollmentResponse-status" name="EnrollmentResponseStatusSearchParam"/>
 <artifact id="InsurancePlan/example1" key="InsurancePlan-example1" name="HL7 Staff Insurance Plan Example"/>
 <artifact id="InsuranceProduct/example1" key="InsuranceProduct-example1" name="HL7 Staff Insurance Product Example"/>
+<artifact id="Organization/example-health-insurance" key="Organization-example-health-insurance" name="Health Insurance Company Example"/>
 <artifact id="InsuranceProduct/example" key="InsuranceProduct-example" name="Individual Medical Insurance Product Example"/>
 <artifact id="StructureDefinition/InsurancePlan" key="StructureDefinition-InsurancePlan" name="Insurance Plan"/>
 <artifact id="ValueSet/insuranceplan-type" key="ValueSet-insuranceplan-type" name="Insurance Plan Type"/>
